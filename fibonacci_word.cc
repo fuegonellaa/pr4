@@ -48,7 +48,7 @@ void Fibonacci::SetWord(std::string Word) {
   Word_ = Word;
 }
 
-int Fibonacci::GetPos(){
+int Fibonacci::GetPos() {
   return SeqPos_;
 }
 
