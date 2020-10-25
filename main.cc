@@ -10,27 +10,8 @@
  * \author $Author: Antonella Sofía García Álvarez $
  * Contact: alu0101227610@ull.edu.es */
 
-#include <iostream>
+int main(int argc, char* argv[]) {
 
-class Fibonacci {
 
-  Fibonacci* Word1_;
-  Fibonacci* Word2_;
-  int SeqPos_;
-  std::string Word_;
 
-  public:
-
-  Fibonacci();
-  Fibonacci(std::string);
-  Fibonacci(Fibonacci&, Fibonacci&);
-
-  ~Fibonacci();
-
-  void SetPos(int);
-  void SetWord(std::string);
-
-  int GetPos();
-  Fibonacci* GetFibonacci(int);
-  std::string GetWord();
-};
+}
